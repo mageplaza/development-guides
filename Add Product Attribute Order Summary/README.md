@@ -1,16 +1,23 @@
+This Code to add the Custom Product Attribute in Order Summary
 
-Setup **manufacturer** Attribute in Magento Admin then
+In this, I will try with manufacturer Attribute.
 
-Clone This Code and run command
+Step 1: Setup **manufacturer** Attribute in Magento Admin
 
-php bin/magento setup:upgrade
+Step2: Clone This Code and run command
 
-php bin/magento setup:di:compile
+Step3: Copy code in app/code/Mageplaza
 
-php bin/magento setup:static-content:deploy -f
+Step4: Run this bellow command 
 
-php bin/magento cache:flush
+    php bin/magento setup:upgrade
+    
+    php bin/magento setup:di:compile
+    
+    php bin/magento setup:static-content:deploy -f
+    
+    php bin/magento cache:flush
+
 
 And this is Result:
-
 ![img.png](img.png)
